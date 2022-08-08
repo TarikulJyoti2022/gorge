@@ -1,0 +1,172 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+.header{
+	width: 100%;
+	border-bottom: 3px dotted #f20643;
+	/*position: fixed;*/
+	/*background-color: white;*/
+}
+.container{
+	width: 1140px;
+	margin: auto;
+}
+a{
+	
+	text-decoration: none;
+}
+li{
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 20px;
+	font-size: 16px;
+}
+.Navbar{
+	display: flex;
+	justify-content: space-between;
+}
+.logomenu{
+	display: flex;
+}
+.logo{
+	margin-top: 8px;
+}
+
+button{
+	margin-top: 13px;
+	color:white;
+	background-color: #de1c1c;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius:32px;
+	margin-bottom: 15px;
+	font-size: 18px;
+	cursor: pointer;
+}
+button:hover{
+	background-color: purple;
+}
+.pictext{
+	display: flex;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+.a-text{
+	flex-basis: 50%;
+
+}
+.b-pic{
+	flex-basis: 50%;
+	
+}
+.photos {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	column-gap: 22px;
+
+}
+
+}
+.a-text h1{
+	color: #292640;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 1.2;
+    padding-bottom: 22px;
+    text-align: left;
+}
+.a-text p{
+	color: #919495;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-right: 12px;
+}
+.text h1{
+	color: #29264f;
+    margin-bottom: 12px;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    
+}
+.text p{
+	color: #919495;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.service{
+	width: 100%;
+	padding-bottom: 80px;
+
+}
+.sscontent{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	text-align: center;
+	column-gap: 30px;
+	grid-row-gap:30px;
+
+}
+
+.sscontent h2{
+	color: black;
+	text-align: center;
+}
+.sscontent p{
+	color: black;
+	text-align: center;
+}
+.sscontent i{
+	
+	color: red;
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	border-radius: 100%;
+	font-size: 30px;
+	margin: 10px 6px;
+
+}
+.sscontent i:hover{
+	background-color: tomato;
+	color: white;
+	transform: rotate(360deg);
+	transition: 1.0s;
+
+}
+.s-item{
+	background-color: pink;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.s-item:hover{
+	background-color: white;
+}
+
+.footer{
+	background-color: #292640;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 100px;
+}
+.footer h1{
+	color: white;
+}
